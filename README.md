@@ -1,1 +1,1 @@
-# Simple Blog App
+# Simple Blog App Written in Node.js
