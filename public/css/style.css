@@ -1,0 +1,33 @@
+body {
+  margin: 45px auto;
+  text-align: center;
+}
+ img {
+   width: 300px;
+ }
+i.icon {
+  font-size: 2em;
+}
+
+.ui.text.container {
+  margin-top: 7.0em;
+  text-align: left;
+}
+
+label {
+  text-align: left;
+}
+#fullpost {
+  width: 700px;
+  text-align: justify;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.ui.segment {
+  margin: 70px auto;
+}
+
+#deleteForm {
+  display: inline;
+}

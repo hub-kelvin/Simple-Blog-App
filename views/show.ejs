@@ -1,0 +1,13 @@
+<% include partials/header.ejs %>
+<div class='ui segment' id='fullpost'>
+  <h2><%= foundBlog.title %></h2>
+  <p><img src="<%= foundBlog.image %>" alt=""></p>
+  <p><%= foundBlog.created.toDateString() %></p>
+  <p><%= foundBlog.body %></p>
+  <a href="/" class="ui purple basic button"><i class="chevron left icon small"></i> Go Back</a>
+  <a href="/blogs/<%= foundBlog._id %>/edit" class="ui green basic button"><i class="edit icon small"></i> Edit Post</a>
+  <form class="ui form" action="/blogs/<%= foundBlog._id %>?_method=DELETE" method="post" id='deleteForm'>
+      <button class="ui red basic button"><i class="remove icon small"></i> Delete Post</button>
+  </form>
+</div>
+<% include partials/footer.ejs %>
